@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Noticias</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        input[type=submit] {
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 8px 16px;
+            text-decoration: none;
+            margin: 2px 1px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>NBA Noticias</h1>
+            <!--<img src="./IMAGUENES/logo.jpg" class="header-image" alt="Logo NBA">-->
+        </div>
+        <nav>
+            <ul class="header-container">
+                <li><a href="https://www.sportingnews.com/ar/nba/news">Noticias</a></li>
+                <li><a href="https://ar.global.nba.com/scores/">Resultados</a></li>
+                <li><a href="https://ar.global.nba.com/schedule/">Calendario</a></li>
+                <li><a href="https://ar.global.nba.com/schedule/">Jugadores</a></li>
+                <li><a href="https://ar.global.nba.com/teamindex/">Equipos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="Noticiasnba">
+            <h2>Noticias NBA</h2>
+        </section>
+        
+        <section class="Noticiasnba">
+            <h2>El Mejor Equipo de la Historia</h2>
+            <ul>
+                <li>
+                    <a class="classColorLetras" href="https://www.sportingnews.com/ar/nba/news/estados-unidos-brasil-vivo-resultado-directo-team-usa-juegos-olimpicos/1c5df8ae13abb37e1862baf0" target="_blank">Estados Unidos y su Racha</a>
+                </li>
+            </ul>
+            <h3>Los Juegos Olímpicos 2024</h3>
+            <ul>
+                <li>
+                    <a class="classColorLetras" href="https://www.sportingnews.com/ar/nba/news/basquet-juegos-olimpicos-paris-2024-grupos-calendario-posiciones-partidos-resultados/ea6ab6e6377b1f9f29dcea0c" title="Todas las noticias" target="_blank">Noticias Generales</a>
+                </li>
+                <li>
+                    <a class="classColorLetras" href="ensalases/equipos.html" title="Distintos Equipos">Equipos</a>
+                </li>
+                <li>
+                    <a class="classColorLetras" href="#">Partidos</a>
+                </li>
+                <li>
+                    <a class="classColorLetras" href="#">MVP</a>
+                </li>
+            </ul>
+        </section>
+        
+        <section>
+            <h4>Sección Datos</h4>
+            <form class="classEstilo">
+                <ul>
+                    <li>
+                        <label for="team">Equipo Favorito</label><br>
+                        <input type="text" id="team" class="classForm" name="Team" placeholder="Ej. Celtics" required>
+                    </li>
+                    <li>
+                        <label for="player">Jugador Favorito</label><br>
+                        <input type="text" id="player" class="classForm" placeholder="Ej. LeBron James" required>
+                    </li>
+                    <li>
+                        <label for="stadium">Estadio Favorito</label><br>
+                        <input type="text" id="stadium" class="classForm" placeholder="Ej. Madison Square Garden" required>
+                    </li>
+                    <li>
+                        <span>Conferencia Más Difícil</span><br>
+                        <input type="radio" id="este" name="conferencia_dificil" value="ESTE">
+                        <label for="este">Este</label><br>
+                        <input type="radio" id="oeste" name="conferencia_dificil" value="OESTE">
+                        <label for="oeste">Oeste</label><br>
+                        <input type="submit" value="Enviar">
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
